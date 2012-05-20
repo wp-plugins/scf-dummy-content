@@ -1,3 +1,7 @@
+.wp-editor-wrap.html-active, .wp-editor-wrap.tmce-active{
+   width:500px;
+}
 .form-table{
-   width:200px;
+     width:780px;
+     margin: 0 auto !important;
 }
