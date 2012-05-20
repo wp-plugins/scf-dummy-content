@@ -75,7 +75,12 @@ function scfdc_plugin_action_links( $links, $file ) {
 $scf_dummy = new scf_dummy(); // call our class
 
 function scfdc_adjust_plugin_css(){
-   echo '<style>textarea.wp-editor-area{width:200px !important;}</style>';
+   echo '<style>
+   
+
+.wp-editor-wrap.tmce-active{width:550px !important;}
+   
+   </style>';
 }
 add_action('admin_head', 'scfdc_adjust_plugin_css');
 
