@@ -32,10 +32,14 @@ Please feel free to comment on any bugs or ideas for improvement.
 Yes you can. In the options page there is an image uploader just for that. 
 
 == Screenshots ==
-1.Fresh WordPress install before SCF Dummy Content plugin is executed.
-2.Fresh WordPress install after SCF Dummy Content plugin is executed.
+
+1. Fresh WordPress install before SCF Dummy Content plugin is executed.
+2. Fresh WordPress install after SCF Dummy Content plugin is executed.
 
 == Changelog ==
 
 = 1.0 =
 * Intial Version.
+
+= 1.5 =
+* Added Screenshots
