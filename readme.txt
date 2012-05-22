@@ -29,9 +29,11 @@ Please feel free to comment on any bugs or ideas for improvement.
 
 = Can I upload my own images =
 
-Yes you can. In the options page there is an image uploader just for that. 
+Yes you can. In the options page there is an image uploader just for that.
 
 == Screenshots ==
+1.Fresh WordPress install before SCF Dummy Content plugin is executed.
+2.Fresh WordPress install after SCF Dummy Content plugin is executed.
 
 1. Fresh WordPress install before SCF Dummy Content plugin is executed.
 2. Fresh WordPress install after SCF Dummy Content plugin is executed.

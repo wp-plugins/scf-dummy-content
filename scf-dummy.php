@@ -74,18 +74,6 @@ function scfdc_plugin_action_links( $links, $file ) {
 
 $scf_dummy = new scf_dummy(); // call our class
 
-function scfdc_adjust_plugin_css(){
-   echo '<style>
-   
-
-.wp-editor-wrap.tmce-active{width:550px !important;}
-   
-   </style>';
-}
-add_action('admin_head', 'scfdc_adjust_plugin_css');
-
-
-
 /*
 ===============================
 ===============================
@@ -101,12 +89,15 @@ add_action('admin_head', 'scfdc_adjust_plugin_css');
 function image_upload_admin_scripts() {
 wp_enqueue_script('media-upload');
 wp_enqueue_script('thickbox');
-wp_register_script('my-upload', WP_PLUGIN_URL.'/scf-dummy-content/js/scf.jquery.plugin.js', array('jquery','media-upload','thickbox'));
-wp_enqueue_script('my-upload');
+wp_register_script('scf-upload', WP_PLUGIN_URL.'/scf-dummy-content/js/scf.jquery.plugin.js', array('jquery','media-upload','thickbox'));
+wp_enqueue_script('scf-upload');
 }
 
 function image_upload_admin_styles() {
 wp_enqueue_style('thickbox');
+wp_register_style( 'scf-stylesheet', WP_PLUGIN_URL.'/scf-dummy-content/css/style.css' );
+wp_enqueue_style( 'scf-stylesheet' );
+
 }
 
 if (isset($_GET['page']) && $_GET['page'] == 'scf-dummy-content/scf-dummy-options-page.php') {

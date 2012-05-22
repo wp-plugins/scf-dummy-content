@@ -21,7 +21,7 @@ class  scf_dummy{
          add_action( 'admin_init', array($this,'active_tax') );
          add_action( 'admin_init', array($this,'active_cpt') );
          add_action( 'admin_init', array($this,'scf_log_new_posts') );
-         add_action( 'admin_init', array($this,'relate_post_to_tax') );         
+         add_action( 'admin_init', array($this,'relate_post_to_tax') );
       }
 
       if( isset($_POST['scf_delete']) ) {
@@ -39,6 +39,8 @@ class  scf_dummy{
 
       if( preg_match($title_helper_pattern, $local_options['title'], $matches) ){
          $title = preg_replace($title_helper_pattern, $args, $local_options['title']);
+      }elseif(empty($local_options['title']) ){
+         $title = $args;
       }else{
          $title = $local_options['title'];
       }
@@ -94,9 +96,9 @@ class  scf_dummy{
          foreach($scf_terms as $scf_term){
             if( ! $new_tax_id = wp_set_object_terms( $scf_new_id, $scf_term->name, $tax_name,true ) ){
                die('could not set insareas');
-            }                        
+            }
          }
-      }     
+      }
    }
 
 
@@ -159,8 +161,24 @@ class  scf_dummy{
    function set_taxonomies($tax){
       $local_options = $this->_custom_options;
       for ($i=1; $i<=$local_options['num_post_create']; $i++) {
-         wp_insert_term( $tax .' term' .$i, $tax );
-      }
+        $title_helper_pattern = "/%%[\s\S]*?%%/";
+        if( preg_match($title_helper_pattern, $local_options['title_tax'], $matches) ){
+            $title = preg_replace($title_helper_pattern, ucwords($tax), $local_options['title_tax']);
+            wp_insert_term( $title.'&nbsp;'.$i, $tax );
+        }elseif(empty($local_options['title_tax']) ){
+            wp_insert_term( ucwords($tax).'&nbsp;'.$i, $tax );
+        }else{
+            wp_insert_term( $local_options['title_tax'].'&nbsp;'.$i, $tax );
+        }
+
+
+
+          /*if( isset($local_options['title_tax']) ){
+               wp_insert_term( $local_options['title_tax'].' '.$i, $tax );
+          }else{
+               wp_insert_term( $tax .' ' .$i, $tax );
+          }*/
+     }
    }
 
    function scf_log_new_posts(){
