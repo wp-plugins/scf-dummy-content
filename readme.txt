@@ -3,7 +3,7 @@ Contributors: stevecfischer
 Tags: content, developer
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.0
+Stable tag: 1.5
 
 Quickly populate your site with dummy content.
 
@@ -33,8 +33,13 @@ Yes you can. In the options page there is an image uploader just for that.
 
 == Screenshots ==
 
+1. Fresh WordPress install before SCF Dummy Content plugin is executed.
+2. Fresh WordPress install after SCF Dummy Content plugin is executed.
 
 == Changelog ==
 
 = 1.0 =
 * Intial Version.
+
+= 1.5 =
+* Added Screenshots

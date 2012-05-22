@@ -2,7 +2,7 @@
 /**
 Plugin Name: SCF Dummy Content
 Description: Quickly populate your site with dummy content
-Version: 1.0
+Version: 1.5
 Author: SmartyDog
 Author URI: http://www.smartydogdesigns.com/scf-dummy-plugin/
 License: GPLv2 or later
