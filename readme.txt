@@ -3,7 +3,7 @@ Contributors: stevecfischer
 Tags: content, developer
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.5
+Stable tag: 1.6
 
 Quickly populate your site with dummy content.
 
@@ -29,7 +29,7 @@ Please feel free to comment on any bugs or ideas for improvement.
 
 = Can I upload my own images =
 
-Yes you can. In the options page there is an image uploader just for that. 
+Yes you can. In the options page there is an image uploader just for that.
 
 == Screenshots ==
 
@@ -43,3 +43,13 @@ Yes you can. In the options page there is an image uploader just for that.
 
 = 1.5 =
 * Added Screenshots
+
+= 1.6 =
+* Added option to edit the title for terms
+* Created shortcode for creating terms. User can insert the term being created into its title.
+* Did some minor CSS to make the wysiwyg smaller and table larger.
+* Filtered out some of the built_in post types and taxonomies(attachement, navigation items)
+* Add javascript confirm box before executing the create posts script.
+* Default post titles are "post_type" + number of post.
+* Default term titles are "taxonomy name" + number of term.
+* Added screenshots for WP.org
