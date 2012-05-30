@@ -19,4 +19,12 @@ jQuery(document).ready(function($) {
           else
                return false;
      });
+
+     $('#scf-delete-submit').click(function(e){
+          var answer = confirm ("You are about to permanently delete all posts terms created by this plugin.  Are you sure?");
+          if (answer)
+               return true;
+          else
+               return false;
+     });
 });

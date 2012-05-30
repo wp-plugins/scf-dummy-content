@@ -53,3 +53,8 @@ Yes you can. In the options page there is an image uploader just for that.
 * Default post titles are "post_type" + number of post.
 * Default term titles are "taxonomy name" + number of term.
 * Added screenshots for WP.org
+
+= 1.7 =
+* Added functions to delete all posts and terms created by plugin.  Thus deflating the site.
+* Added link to Ipsum Lorem Generator
+

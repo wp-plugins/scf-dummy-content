@@ -5,3 +5,7 @@
      width:780px;
      margin: 0 auto !important;
 }
+.italic-link{
+   font-style:italic;
+   font-size:10px;
+}
