@@ -3,7 +3,7 @@ Contributors: stevecfischer
 Tags: content, developer
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.7
+Stable tag: 1.8
 
 Quickly populate your site with dummy content.
 
@@ -58,3 +58,5 @@ Yes you can. In the options page there is an image uploader just for that.
 * Added functions to delete all posts and terms created by plugin.  Thus deflating the site.
 * Added link to Ipsum Lorem Generator
 
+= 1.8 =
+* In Beta

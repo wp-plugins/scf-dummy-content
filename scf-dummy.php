@@ -2,18 +2,23 @@
 /**
 Plugin Name: SCF Dummy Content
 Description: Quickly populate your site with dummy content
-Version: 1.7
+Version: 1.8
 Author: SmartyDog
 Author URI: http://www.smartydogdesigns.com/scf-dummy-plugin/
 License: GPLv2 or later
 */
 
 /*!
- * @TODO
- * - testing testing and more testing
- * - clean up code
- *   - delete any functions not being used
- *   - look for places to optimize
+ * @TODO for version 1.8
+ * 		1. testing testing and more testing
+ * 		2. clean up code
+ *   		a. delete any functions not being used
+ *   		b. look for places to optimize
+ *		3. give terms their own number input.
+ *		4. Documentation!!!!
+ *		5. need a better solution for titling posts. its too complicated now.
+ *			a. maybe several fields in a row like:
+ *				i. input -- dropdown(shortcode options Ex. %%cpt%%) -- input -- counter(required)
  *
  *
  * \author Steve (3/20/2012)
