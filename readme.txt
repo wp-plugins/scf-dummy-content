@@ -2,7 +2,7 @@
 Contributors: stevecfischer
 Tags: content, developer
 Requires at least: 3.3
-Tested up to: 3.3
+Tested up to: 3.4
 Stable tag: 1.7
 
 Quickly populate your site with dummy content.
@@ -19,6 +19,7 @@ There are a few different options to play around with.
 
 Please feel free to comment on any bugs or ideas for improvement.
 
+For more information go to: <a target="_blank" rel="nofollow" href="www.smartydogdesigns.com">SmartyDogDesigns</a>
 == Installation ==
 
 1. Unzip and Upload all files in `scf-dummy.zip` to the `/wp-content/plugins/` directory
