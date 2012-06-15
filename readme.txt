@@ -19,7 +19,7 @@ There are a few different options to play around with.
 
 Please feel free to comment on any bugs or ideas for improvement.
 
-For more information go to: <a target="_blank" rel="nofollow" href="www.smartydogdesigns.com">SmartyDogDesigns</a>
+For more information go to: <a target="_blank" rel="nofollow" href="http://www.smartydogdesigns.com">SmartyDogDesigns</a>
 == Installation ==
 
 1. Unzip and Upload all files in `scf-dummy.zip` to the `/wp-content/plugins/` directory
