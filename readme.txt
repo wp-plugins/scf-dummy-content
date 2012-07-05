@@ -3,7 +3,7 @@ Contributors: stevecfischer
 Tags: content, developer
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.8
+Stable tag: 1.8.1
 
 Quickly populate your site with dummy content.
 
@@ -55,3 +55,6 @@ Yes you can. In the options page there is an image uploader just for that.
 
 = 1.8 =
 * Edited some content.
+
+= 1.8.1 =
+* In Beta
