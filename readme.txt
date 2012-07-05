@@ -3,21 +3,16 @@ Contributors: stevecfischer
 Tags: content, developer
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.7
+Stable tag: 1.8
 
 Quickly populate your site with dummy content.
 
 == Description ==
-Being a website developer myself I hate wasting time adding filler content just to see how a new theme could look. I created this plugin to quickly do that task for me.
+I hate wasting time adding dummy content to a theme. 
 
-Overview
-The plugin will populate your site with dummy, titles, contents, and even featured images.
+SCF Dummy Content quickly populates a site with dummy titles, content and featured images. It can create posts, pages, custom post types and terms for registered taxonomies.
 
-It can create posts, pages, or custom post types. It can also create terms for any registered taxonomies you might have.
-
-There are a few different options to play around with.
-
-Please feel free to comment on any bugs or ideas for improvement.
+I appreciate your comments and any ideas for improvement! 
 
 == Installation ==
 
@@ -58,3 +53,5 @@ Yes you can. In the options page there is an image uploader just for that.
 * Added functions to delete all posts and terms created by plugin.  Thus deflating the site.
 * Added link to Ipsum Lorem Generator
 
+= 1.8 =
+* Edited some content.
