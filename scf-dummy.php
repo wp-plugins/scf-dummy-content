@@ -2,7 +2,7 @@
 /**
 Plugin Name: SCF Dummy Content
 Description: Quickly populate your site with dummy content
-Version: 1.8
+Version: 1.8.1
 Author: SmartyDog
 Author URI: http://www.smartydogdesigns.com/scf-dummy-plugin/
 License: GPLv2 or later
@@ -24,13 +24,13 @@ License: GPLv2 or later
  * \author Steve (3/20/2012)
  */
 
-if (is_admin()) { 
-    
+if (is_admin()) {
+
    if (!defined('SCF_DUMMY_PATH')) {
       define('SCF_DUMMY_PATH', dirname(__FILE__).'/');
    }
 
-   // Load admin functionality   
+   // Load admin functionality
    require_once SCF_DUMMY_PATH.'scf-dummy-class.php';
 
    // Set-up Action and Filter Hooks
@@ -42,7 +42,7 @@ if (is_admin()) {
    add_filter( 'plugin_action_links', 'scfdc_plugin_action_links', 10, 2 );
 
    if (is_admin()) {
-      // Load admin functionality   
+      // Load admin functionality
       require_once SCF_DUMMY_PATH.'scf-dummy-options-page.php';
    }
 
