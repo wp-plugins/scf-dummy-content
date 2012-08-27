@@ -57,4 +57,4 @@ Yes you can. In the options page there is an image uploader just for that.
 * Edited some content.
 
 = 1.8.1 =
-* In Beta
+* Bug fix - user could only create posts and no other custom post types
